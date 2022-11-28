@@ -2,10 +2,10 @@ import styles from './Statistics.module.css';
 import PropTypes from 'prop-types';
 
 export default function Statistics({ title, stats }) {
-    const renderTitle = title ? <h2 className={styles.title}>UPLOAD STATS</h2> : '';
+    // const renderTitle = title ? <h2 className={styles.title}>UPLOAD STATS</h2> : '';
     return (
         <section className={styles.statistics}>
-            {renderTitle}
+            {title && <h2 className={styles.title}>UPLOAD STATS</h2>}
             <ul className={styles.stat__list}>
                 {stats.map(({ id, label, percentage }) => (
                 <li className={styles.item} key={id}>
