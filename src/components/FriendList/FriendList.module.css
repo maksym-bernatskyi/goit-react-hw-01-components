@@ -5,37 +5,3 @@
     background-color: rgb(217, 35, 196);
     border-radius: 10px;
 }
-
-.friend__item {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-bottom: 12px;
-    border-radius: 10px;
-}
-
-.friend__item:hover {
-    cursor: pointer;
-    background-color: rgb(10, 154, 238);
-}
-
-.friend__item span {
-    width: 12px;
-    height: 12px;
-    margin-left: 16px;
-    margin-right: 16px;
-    border-radius: 50%;
-}
-
-.online {
-    background-color: green;
-}
-
-.offline {
-    background-color: red;
-}
-
-.name {
-    margin-left: 12px;
-    font-size: 24px;
-}
